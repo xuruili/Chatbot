@@ -1,8 +1,8 @@
 ---
 applications:
-- name: webchatbot
+- name: xurlwebchat
   path: target/Chatbot-0.0.1.war
   buildpack: liberty-for-java
   env:
-    CONVERSATION_WORKSPACE_ID: 2e38d5ef-7506-4e38-804e-e83f3cbe6926
-    CAR_SERVICE_HOST: webchatbotcar.mybluemix.net
+    CONVERSATION_WORKSPACE_ID: dea60ef1-a9b3-4bd0-a59b-f0ac9c385834
+    CAR_SERVICE_HOST: xurl1iotcar.mybluemix.net
